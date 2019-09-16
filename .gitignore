@@ -1,0 +1,12 @@
+config.local.json
+/.nyc_output/
+/node_modules/
+local.log
+/patches/
+/dist
+tmp
+.DS_Store
+/package-lock.json
+!/test/fixtures/**/package-lock.json
+.idea
+.eslintcache

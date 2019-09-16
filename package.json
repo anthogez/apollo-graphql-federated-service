@@ -1,0 +1,33 @@
+{
+  "name": "apollo-graphql-federated-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "build-watch": "tsc -w",
+    "prepare": "npm run build",
+    "prod": "tsc && node ./dist/server.js"
+  },
+  "author": "Antonio Gomes",
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/federation": "^0.9.4",
+    "apollo-server": "^2.9.3",
+    "cors": "^2.8.5",
+    "graphql": "^14.5.6",
+    "nodemon": "^1.19.2",
+    "pino": "^5.13.2",
+    "pino-pretty": "^3.2.1",
+    "ts-node-dev": "^1.0.0-pre.42",
+    "typescript": "^3.6.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/pino": "^5.8.10",
+    "jest": "^24.9.0",
+    "supertest": "^4.0.2",
+    "ts-jest": "^24.0.2"
+  }
+}
