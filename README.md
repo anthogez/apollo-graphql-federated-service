@@ -9,3 +9,21 @@
 - Jest [Jest Github](https://github.com/facebook/jest).
 
 In dev.
+
+
+### Playground Fetch Samples
+
+```
+query getUser {
+  getUser(username: "avram") {
+    username
+    email
+  }
+}
+
+query getUsers {
+  getUsers {
+    username
+    email
+  }
+```
