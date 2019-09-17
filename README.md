@@ -26,4 +26,5 @@ query getUsers {
     username
     email
   }
+}
 ```
