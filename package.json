@@ -31,5 +31,14 @@
     "jest": "^24.9.0",
     "supertest": "^4.0.2",
     "ts-jest": "^24.0.2"
+  },
+  "overrides": {
+    "fast-redact": "3.5.0",
+    "yargs-parser": "22.0.0",
+    "braces": "3.0.3",
+    "micromatch": "4.0.8",
+    "dicer": "0.3.1",
+    "got": "14.6.3",
+    "cross-spawn": "7.0.6"
   }
 }
